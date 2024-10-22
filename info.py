@@ -71,7 +71,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+b4VvuGIyasY5M2U1')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+b4VvuGIyasY5M2U1')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello Nanbha and Nanbis ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002298077120'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002390954139'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+U-HGd3Ty7MsxM2U9')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
@@ -127,7 +127,7 @@ else:
     URL = "https://myd-1m00.onrender.com/".format(FQDN)
 
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002426354774'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002390954139'))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
