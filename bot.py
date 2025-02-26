@@ -8,7 +8,7 @@ import logging.config
 
 import pyrogram.utils
 
-pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+pyrogram.utils.LOG_CHANNEL = -1009147483647
 
 
 # Get logging configurations
